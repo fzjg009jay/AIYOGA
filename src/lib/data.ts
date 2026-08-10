@@ -51,22 +51,24 @@ export const classes = [
 
 export const locations = [
   {
-    id: 'east-tamaki',
-    name: 'East Tamaki 店',
-    address: '43A Lady Ruby Drive, East Tāmaki, Auckland 2013',
-    phone: '022 672 2378',
-    hours: '周一至周五 9:00–21:00 · 周末 9:00–15:00',
-    image:
-      'https://images.unsplash.com/photo-1545389336-cf090694435e?q=80&w=1400&auto=format&fit=crop',
-  },
-  {
     id: 'albany',
     name: 'Albany 店',
     address: '51 Paul Matthews Road, Rosedale, Auckland 0632',
     phone: '021 0264 9992',
+    wechat: 'aiyg01',
     hours: '周一至周五 9:00–21:00 · 周末 9:00–15:00',
     image:
       'https://images.unsplash.com/photo-1571902943202-507ec2618e8f?q=80&w=1400&auto=format&fit=crop',
+  },
+  {
+    id: 'east-tamaki',
+    name: 'East Tamaki 店',
+    address: '43A Lady Ruby Drive, East Tāmaki, Auckland 2013',
+    phone: '022 672 2378',
+    wechat: 'aiyg02',
+    hours: '周一至周五 9:00–21:00 · 周末 9:00–15:00',
+    image:
+      'https://images.unsplash.com/photo-1545389336-cf090694435e?q=80&w=1400&auto=format&fit=crop',
   },
 ];
 

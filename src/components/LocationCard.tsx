@@ -1,13 +1,14 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { MapPin, Clock, Phone } from 'lucide-react';
+import { MapPin, Clock, Phone, MessageCircle } from 'lucide-react';
 
 type Location = {
   id: string;
   name: string;
   address: string;
   phone: string;
+  wechat: string;
   hours: string;
   image: string;
 };
@@ -48,6 +49,10 @@ export default function LocationCard({ location }: { location: Location }) {
             <a href={`tel:${location.phone.replace(/\s/g, '')}`} className="text-ink/70 hover:text-ink">
               {location.phone}
             </a>
+          </li>
+          <li className="flex gap-3 items-start">
+            <MessageCircle size={18} className="mt-0.5 text-clay-700 shrink-0" />
+            <span className="text-ink/70">微信：{location.wechat}</span>
           </li>
         </ul>
 
