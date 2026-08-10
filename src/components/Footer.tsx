@@ -37,11 +37,11 @@ export default function Footer() {
           <ul className="space-y-2 text-sm text-cream/70">
             <li className="flex justify-between gap-6">
               <span>周一 – 周五</span>
-              <span>6:00 – 20:30</span>
+              <span>9:00 – 21:00</span>
             </li>
             <li className="flex justify-between gap-6">
               <span>周六 – 周日</span>
-              <span>7:30 – 15:00</span>
+              <span>9:00 – 15:00</span>
             </li>
           </ul>
 
