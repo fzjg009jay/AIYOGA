@@ -53,18 +53,18 @@ export const locations = [
   {
     id: 'east-tamaki',
     name: 'East Tamaki 店',
-    address: '15 Ha Crescent, East Tamaki, Auckland 2013',
+    address: '43A Lady Ruby Drive, East Tāmaki, Auckland 2013',
+    phone: '022 672 2378',
     hours: '周一至周五 6:00–20:00 · 周末 7:30–14:00',
-    directions: '门店免费停车 · 距 Ti Rakau Drive 5 分钟车程',
     image:
       'https://images.unsplash.com/photo-1545389336-cf090694435e?q=80&w=1400&auto=format&fit=crop',
   },
   {
     id: 'albany',
     name: 'Albany 店',
-    address: '4 Munroe Lane, Albany, Auckland 0632',
+    address: '51 Paul Matthews Road, Rosedale, Auckland 0632',
+    phone: '021 0264 9992',
     hours: '周一至周五 6:00–20:30 · 周末 8:00–15:00',
-    directions: '紧邻 Albany 公交枢纽站 · 提供停车券',
     image:
       'https://images.unsplash.com/photo-1571902943202-507ec2618e8f?q=80&w=1400&auto=format&fit=crop',
   },
@@ -86,20 +86,18 @@ export const instructors = [
     image: '/images/instructors/jay.jpg',
   },
   {
-    name: '阿罗哈 Aroha Ngata',
-    role: '阴瑜伽与静修导师',
-    focus: '阴瑜伽、冥想',
-    bio: '曾于京都与奥克兰研习，为都市快节奏生活带来静定的练习方式。',
-    image:
-      'https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1000&auto=format&fit=crop',
+    name: 'Seren',
+    role: '空中瑜伽 · 普拉提资深导师',
+    focus: '空中吊床、普拉提、运动理疗',
+    bio: '2015 年因健康契机接触瑜伽，其后系统研习空中吊床瑜伽、普拉提与运动理疗，十年教龄、6000 小时私教经验，持续钻研 PRI 不对称姿势恢复技术，用专业与热爱陪伴学员重获健康与自信。',
+    image: '/images/instructors/seren.jpg',
   },
   {
-    name: '吴丹尼 Daniel Wu',
-    role: '力量流瑜伽教练',
-    focus: '力量流瑜伽、功能性训练',
-    bio: '将功能性活动度训练与充满力量感的动态流瑜伽相结合。',
-    image:
-      'https://images.unsplash.com/photo-1567013127542-490d757e51fc?q=80&w=1000&auto=format&fit=crop',
+    name: 'Kiki',
+    role: '瑜伽普拉提 · 产后修复导师',
+    focus: '瑜伽、普拉提、产后修复',
+    bio: '2016 年结缘瑜伽普拉提，八年授课经验，赴印度研习阿斯汤加与瑜伽理疗，在上海积累三千小时以上私教经验，专注产后修复、体态调整与塑形，以耐心与觉知陪伴学员找回身心平衡。',
+    image: '/images/instructors/kiki.jpg',
   },
 ];
 

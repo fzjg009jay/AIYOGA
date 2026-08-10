@@ -1,14 +1,14 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { MapPin, Clock, Navigation } from 'lucide-react';
+import { MapPin, Clock, Phone } from 'lucide-react';
 
 type Location = {
   id: string;
   name: string;
   address: string;
+  phone: string;
   hours: string;
-  directions: string;
   image: string;
 };
 
@@ -44,8 +44,10 @@ export default function LocationCard({ location }: { location: Location }) {
             <span className="text-ink/70">{location.hours}</span>
           </li>
           <li className="flex gap-3 items-start">
-            <Navigation size={18} className="mt-0.5 text-clay-700 shrink-0" />
-            <span className="text-ink/70">{location.directions}</span>
+            <Phone size={18} className="mt-0.5 text-clay-700 shrink-0" />
+            <a href={`tel:${location.phone.replace(/\s/g, '')}`} className="text-ink/70 hover:text-ink">
+              {location.phone}
+            </a>
           </li>
         </ul>
 
