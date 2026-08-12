@@ -101,6 +101,13 @@ export const instructors = [
     bio: '2016 年结缘瑜伽普拉提，八年授课经验，赴印度研习阿斯汤加与瑜伽理疗，在上海积累三千小时以上私教经验，专注产后修复、体态调整与塑形，以耐心与觉知陪伴学员找回身心平衡。',
     image: '/images/instructors/kiki.jpg',
   },
+  {
+    name: 'Daisy',
+    role: '体态矫正 · 女性康复导师',
+    focus: '体态矫正、产后修复、塑形普拉提',
+    bio: '产后经历体态问题后系统习练瑜伽普拉提，考取双认证教练，融合柔韧与力量控制打造「身心整合」训练方案，专注体态矫正、产后修复与青少年脊柱侧弯矫正，创立女性训练营助 500+ 学员塑形，帮助 200+ 青少年改善体态。',
+    image: '/images/instructors/daisy.jpg',
+  },
 ];
 
 export const testimonials = [
